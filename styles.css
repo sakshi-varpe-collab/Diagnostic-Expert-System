@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: gray; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 97%;
+    width: 55%;
+    /* background-color:yellowgreen; */
+}
+
+.main-box{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+
+.box{
+    height: 65%;
+    width: 99%;
+    background-color: rgb(185, 175, 175);
+    position: relative;
+    border-radius: 20px;
+    margin:.2vw .1vw;
+}
+
+.nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+
+.left h2{
+    font-size: 20px;
+    padding: 1vw 0 1vw 1vw;
+}
+
+.left sup{
+    color: blue;
+    font-weight: 700;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vw;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    padding: .6vw;
+}
+
+.content{
+    height: 70%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+
+.left-content{
+    height:100% ;
+    width: 90%;
+    /* background-color: yellow; */
+    padding: 1vw 0 0 1vw;
+}
+
+.left-content h1{
+    font-size: 5.5vw;
+    font-weight: 600;
+    line-height: 5vw;
+}
+
+.left-content p{
+    color: black;
+    padding: 2vw 1vw 0 4.5vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+}
+
+.right-content{
+    height: 100%;
+    width: 20%;
+    /* background-color: crimson; */
+    padding-top: 3vw;
+}
+
+.right-content button{
+    height: 5vh;
+    width: 8vw;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.box .option{
+    height: 10%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.first{
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+} 
+
+.first span{
+    color: blue;
+}
+
+.first a{
+    text-decoration: none;
+    color: black;
+    padding: .7vw;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.second{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.second img{
+    position: absolute;
+    top: 18vw;
+    right: 14vw;
+}
+
+.name{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 15px;
+    margin-top: .5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name a{
+    color: white;
+    text-decoration: none;
+}
+
+.last{
+    height: 46%;
+    width: 100%;
+    /* background-color: skyblue; */
+}
+
+.last h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+.upper{
+    height: 38%;
+    width: 100%;
+    /* background-color:rgb(163, 161, 161); */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: .4vw;
+}
+
+.left-up{
+    height: 100%;
+    width: 49%;
+    background-color: gray;
+    display: flex;
+}
+
+.img{
+    height: 100%;
+    width: 50%;
+    /* background-color: pink; */
+    /* background-image: url(downloadgenomics.png); */
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    height: 100%;
+    width: 40%;
+    /* background-color: darkorange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-up{
+    height: 100%;
+    width: 49%;
+    background-color:gray;
+    display: flex;
+}
+
+.chem{
+    height: 100%;
+    width: 50%;
+    /* background-color: fuchsia; */
+    /* background-image: url("downloadchem.png"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.txt{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkslategrey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lower{
+    height: 38%;
+    width: 100%;
+    /* background-color:rgb(161, 160, 160);  */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-low{
+    height: 100%;
+    width: 49%;
+    background-color: gray; 
+    display: flex;
+}
+
+.bio{
+    height: 100%;
+    width: 50%;
+    /* background-color: darkred; */
+    /* background-image: url(downloadliv.png);     */
+    /* background-position:center ; */
+    /* background-size: cover; */
+}
+
+.desc{
+    height: 100%;
+    width: 50%;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-low{
+    height: 100%;
+    width: 49%;
+    background-color: gray;
+    display: flex;
+}
+
+.gene{
+    height: 100%;
+    width: 50%;
+    /* background-color: chocolate; */
+    /* background-image: url(downloadinjection.png); */
+    background-position: center;
+    background-size: cover;
+}
+
+.g-name{
+    height: 100%;
+    width: 50%;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-name h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
